@@ -62,6 +62,8 @@
       <src path="${src}" />
 
      <classpath path="${lib}/commons-math-2.0.jar" />
+      <classpath path="${lib}/ncl-taskschedsim.jar"/>
+       <classpath path="${lib}/ncl-sfc.jar"/>
         <classpath path="${lib}/jdom-2.0.0.jar" />
         <classpath path="${lib}/log4j-api-2.11.1.jar" />
 
@@ -103,6 +105,8 @@
         <classpath path="${lib}/jackson-core-2.9.8.jar" />
         <classpath path="${lib}/jackson-databind-2.9.8.jar" />
         <classpath path="${lib}/commons-net-3.6.jar" />
+            <classpath path="${lib}/ncl-taskschedsim.jar"/>
+       <classpath path="${lib}/ncl-sfc.jar"/>
         <include name="**/*Test.java" />
       <include name="**/Test*.java" />
       <src path="${src}" />
@@ -150,6 +154,8 @@
             <classpath path="${lib}/jackson-core-2.9.8.jar" />
             <classpath path="${lib}/jackson-databind-2.9.8.jar" />
             <classpath path="${lib}/commons-net-3.6.jar" />
+                <classpath path="${lib}/ncl-taskschedsim.jar"/>
+       <classpath path="${lib}/ncl-sfc.jar"/>
             <!--<classpath path="${lib}/commons-math3-3.2.jar" /> -->
             <!--<exclude name="**/*Test.java" />
             <exclude name="**/Test*.java" />  -->
